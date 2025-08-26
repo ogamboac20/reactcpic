@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import MiPerfil from './Componentes/MiPerfil/MiPerfil';
-import Opciones from './Componentes/Opciones/Opciones';
 import MiPerfilDetalle from './Componentes/MiPerfil/MiPerfilDetalle';
 import LogoPerfil from './imagenperfil.png'
+import Contactos from './Componentes/Contactos/contactos';
 function App() {
   return (
     <div className="App">
@@ -12,11 +12,12 @@ function App() {
     </header>
 <section>
   <nav>
-      <Opciones></Opciones>
+      <div><p>Sitio proyecto cpic react</p></div>
   </nav>
   
-  <article className="App-link" >
-  <MiPerfilDetalle Personaje="Iron-man" Nombre="Olger Gamboa Castillo" Imagen={LogoPerfil} Carrera="Ing. Sistema- Enfasis en desarrollo" ></MiPerfilDetalle>
+  <article  >
+   <MiPerfilDetalle Personaje="Iron-man" Nombre="Olger Gamboa Castillo" Imagen={LogoPerfil} Carrera="Ing. Sistema- Enfasis en desarrollo" ></MiPerfilDetalle>
+<Contactos></Contactos>
   </article>
 </section>
 

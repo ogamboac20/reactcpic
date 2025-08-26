@@ -1,0 +1,28 @@
+.cardContactos {
+  width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.tablacontactos{
+    margin: 10px;
+     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.lista{
+    list-style: none;
+    border: 3px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.lista:hover{
+    background-color: green;
+    color: white;
+}
