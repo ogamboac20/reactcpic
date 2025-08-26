@@ -1,0 +1,31 @@
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-name {
+  font-size: 1.4rem;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.card-career,
+.card-fav {
+  font-size: 1rem;
+  color: #555;
+  margin: 4px 0;
+}
